@@ -27,41 +27,33 @@ def iniciar():
             print("Ejercicio 1")
             while True:
                 print("========================")
-                print("[1] Opcion 1")
-                print("[2] Opcion 2")
-                print("[3] Salida")
+                print("[1] Aprendizaje")
+                print("[2] Creacion")
+                print("[3] Preparacion_imagenes")
+                print("[4] red_convolucional")
+                print("[5] Salida")
                 print("========================")
                 opcion2 = input("> ")
                 if opcion2 == "1":
-                    print("Opcion 1")
+                    aprendizaje()
                 elif opcion2 == "2":
-                    print("Opcion 2")
+                    creacion()
                 elif opcion2 == "3":
+                    preparacion_imagenes()
+                elif opcion2 == "4":
+                    red_convolucional()
+                elif opcion2 == "5":
                     print("Volviendo al menu principal")
                     break
 
         elif opcion == "2":
-            print("Ejercicio 2")
-            while True:
-                print("========================")
-                print("[1] Opcion 1")
-                print("[2] Opcion 2")
-                print("[3] Salida")
-                print("========================")
-                opcion2 = input("> ")
-                if opcion2 == "1":
-                    print("Opcion 1")
-                elif opcion2 == "2":
-                    print("Opcion 2")
-                elif opcion2 == "3":
-                    print("Volviendo al menu principal")
-                    break            
+            lectura_etapa_1()          
 
         elif opcion == "3":
-            print("Ejercicio 3")
+            lectura_etapa_2()
 
         elif opcion == "4":
-            print("Ejercicio 4")
+            lectura_etapa_3()
             
         elif opcion == "5":
             print("Saliendo...")
