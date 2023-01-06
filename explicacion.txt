@@ -1,0 +1,2 @@
+Tras vernos los archivos de lectura (1,2 y 3) creemos que no es óptimo separarlos ya que no vemos parte en la que podamos estructuralos
+en una programación orientada a objetos.
