@@ -1,6 +1,6 @@
 import sys
-sys.path.insert(0,"\Users\Lorenzo\Documents\programacion\2.Desarrollo_OO\El_ordenador_sabe_leer\codigo_cap13")
-sys.path.insert(0,"\Users\Lorenzo\Documents\programacion\2.Desarrollo_OO\El_ordenador_sabe_leer\codigo_cap13/aprendizaje")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/El_ordenador_sabe_leer/codigo_cap13")
+sys.path.insert(0,"/Users/Lorenzo/Documents/programacion/2.Desarrollo_OO/El_ordenador_sabe_leer/codigo_cap13/aprendizaje")
 #Importaciones de directorios
 from aprendizaje import aprendizaje
 from lectura_etapa_1 import lectura_etapa_1
